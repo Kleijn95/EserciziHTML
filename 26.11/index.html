@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="./assets/img/logo.svg" alt="logo epicode" />
+    <header>
+      <h1>Sviluppo di una pagina web - Blog Epicode</h1>
+      <h3>
+        Primi passi operativi per creare un modello di pagina HTML per un post.
+        Scopri come iniziare in modo facile
+      </h3>
+    </header>
+    <nav>
+      <a href="#">Home</a> <br />
+      <a href="#">Articoli</a><br />
+      <a href="#">Contatti</a>
+    </nav>
+    <main>
+      <h2>Come creare un template per i post</h2>
+      <p>di Mario Rossi - pubblicato il 25-10-2020</p>
+      <section>
+        La prima cosa da fare é suddividire in blocchi logici la pagina,
+        identificando le parti comuni da applicare a tutte le pagine <br />
+
+        <ul>
+          Le varie aree saranno quindi suddivisi in:
+          <li>Contenuti di instenziona del tag &lt;header&gt;</li>
+          <li>Contenuti centrali variabili del tag &lt;main&gt;</li>
+          <li>
+            Contenuti di fine pagine comuni, da inserire nel tag &lt;footer&gt;
+          </li>
+        </ul>
+
+        <h3>Formattazione del codice</h3>
+        Il testo dell'articolo dovrà essere formattato per identificare tutte le
+        parti da selezionare con i CSS. Perciò i passi saranno:
+        <ol>
+          <li>
+            Progettare i markup assegnando ad ogni specifico testo il tag
+            appropriato
+          </li>
+          <li>
+            Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso
+            il basso
+          </li>
+          <li>Appliciare gli stili CSS</li>
+          L'applicazione degli stili CSS é cresciuta negli anni fino a
+          raggiungere la diffusione pressoché totale.
+        </ol>
+      </section>
+
+      <section>
+        <table border="1">
+          <thead>
+            <caption>
+              Diffusione del CSS
+            </caption>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Anno</th>
+              <th>% di utilizzo</th>
+              <th>Supporto browsers</th>
+            </tr>
+            <tr>
+              <td>2000</td>
+              <td>20%</td>
+              <td>17%</td>
+            </tr>
+            <tr>
+              <td>2002</td>
+              <td>35%</td>
+              <td>22%</td>
+            </tr>
+            <tr>
+              <td>2004</td>
+              <td>45%</td>
+              <td>42%</td>
+            </tr>
+            <tr>
+              <td>2008</td>
+              <td>80%</td>
+              <td>51%</td>
+            </tr>
+            <tr>
+              <td>2012</td>
+              <td>100%</td>
+              <td>76%</td>
+            </tr>
+          </tbody>
+        </table>
+        <tfoot>
+          Un test di validazione potrà essere fatto tramite il tool online
+          <a href="#">-Link Esterno</a>
+          dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto
+          il nostro obiettivo ed essere stati dei veri developers come loro:
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/sOnsyLAXfSI?si=z532ivada-kiCLPf"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </tfoot>
+      </section>
+    </main>
+    <footer>
+      Vuoi rimanere aggiornato su altre novità dei blog? Iscriviti alla nostra
+      newsletter:
+      <form border="1">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="inserisci la tua mail"
+        />
+        <br />
+        <button>INVIA REGISTRAZIONE</button>
+      </form>
+      <section>
+        <h4>Area correlati</h4>
+        <p>Articoli correlati</p>
+        <p>Validare il codice &lt;HTML&gt;</p>
+        <p>Categoria: developers</p>
+        <p>Data: 18-9-2020</p>
+        <p>Correggere la sintassi</p>
+        <p>Categoria: developer</p>
+        <p>Data: 16-09-2020</p>
+      </section>
+
+      <p>© Blog Epicode 2023</p>
+    </footer>
+  </body>
+</html>
