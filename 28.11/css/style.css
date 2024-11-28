@@ -1,0 +1,97 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    background-image: url(../img/sfondo.png);
+
+}
+
+div img {
+    padding: 25px;
+}
+
+div p {
+    color: white;
+    margin: 0;
+    font-weight: 900;
+}
+
+header {
+    background-color: rgb(72, 154, 170);
+    background: radial-gradient(circle, rgba(72, 154, 170, 1) 32%, rgba(19, 150, 177, 1) 58%, rgba(107, 156, 166, 1) 100%);
+    ;
+    text-align: center;
+}
+
+.a {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+ul {padding-inline-start: 0;
+    padding-bottom: 30px;
+    list-style-type: none;
+}
+
+
+
+.freccia {list-style-image: url(../img/angle-double-right-solid.svg);list-style-position: inside; padding-bottom: 5px;
+    }
+    .freccia::after {
+        content: url('../img/angle-double-left-solid.svg');  position: absolute;
+
+        transform: translateY(-0%); /* Per il perfetto allineamento verticale */
+        width: 6.13px; /* Regola la dimensione dell'immagine */
+        height: 17; /* Mantieni proporzioni */; margin-left: 7px;
+        }
+main {
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-width: 1px; padding: 15px;
+}
+
+p strong {
+    color: purple;
+}
+
+.code {
+    background-color: lightgrey;
+}
+
+.pallino {
+    list-style-type: disc;
+    margin: 20px;
+    padding: 0;
+}
+
+.iframe {border-radius: 20px; width: 100%;}
+
+section {background-color: lightgrey; height: 150px; text-align: center; margin: 5px;}
+
+.novita {padding-top: 10px;}
+
+.inputemail {border-bottom: dashed;}
+
+.buttoniscriviti {background: lightblue;color: white;text-transform: ;}
+/* HEADER */
+footer   { background-color: rgb(72, 154, 170);
+    background: radial-gradient(circle, rgba(72, 154, 170, 1) 32%, rgba(19, 150, 177, 1) 58%, rgba(107, 156, 166, 1) 100%);
+border: solid;
+border-color: black;
+border-width: 1px; padding: 15px;
+text-align: center;}
+/* MAIN */
+#aside {background-color: white;
+    border: solid;
+    border-color: black;
+    border-width: 1px; padding: 15px;}
+/* ELEMENTI NEL MAIN - ARTICLE */
+.linkemail {color: purple;}
+/* TABELLE */
+.pfooter {margin: 0;}
+/* FORM */
+address {padding-top: 10px;}
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
