@@ -64,7 +64,7 @@ else {                                                      // uso struttura els
 */
 
 let totalShoppingCart = 60                            
-let spedizione = 0                                        
+let spedizione = 0                                      
 let scontoBlackFriday = totalShoppingCart *0.20
 let prezzoScontato = totalShoppingCart - scontoBlackFriday
 console.log (prezzoScontato)
