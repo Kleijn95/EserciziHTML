@@ -6,7 +6,7 @@ function area(l1, l2) {
     return (l1 * l2)
 }
 
-console.log(area(5, 7))
+console.log("L'area del rettangolo sara: " + area(5, 7))
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -55,14 +55,14 @@ console.log(crazyDiff())
  se n è uguale a 400.
 */
 
-function boundary(n = 1) {
+function boundary(n) {
     if (20 < n && n <= 100 || n == 400) { return (true) }
     else {
         return (false)
     }
 }
 
-console.log(boundary())
+console.log(boundary(1))
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 5
