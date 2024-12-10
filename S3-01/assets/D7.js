@@ -15,7 +15,7 @@ let str1str2maiuscolo = str1str2.toUpperCase()
 console.log (str1str2maiuscolo)
 
 function concatStrings(str1,str2) {
-  let parte1 = str1.slice(0,2)
+  let parte1 = str1.slice(0,2)                                                      // return str1.slice(0,2).concat(str2.slice(-3)).toUpperCase()
   let parte2 = str2.slice (-3)
   let result = (parte1+parte2).toUpperCase()
   console.log (result)
@@ -48,9 +48,12 @@ let array1 = [1, 7, 10, 24, 32, 77, 98, 100]
 // return (x % 2 === 0)})
 // console.log (arrayfiltrato)
 
-let arrayfiltrato = array1.filter(x => x % 2 === 0);
-console.log(arrayfiltrato);
+function parifunc(arr9) {
+  return array1.filter(x => x % 2 === 0);                              
 
+}
+
+  console.log (parifunc(array1))
 
 
 /* ESERCIZIO 4 (forEach)
