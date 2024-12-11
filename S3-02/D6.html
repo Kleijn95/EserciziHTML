@@ -184,7 +184,7 @@
 
     const makeItClickable = function () {                                         
       let t= document.querySelector("h1")
-      t.innerText = t.innerText.slice (0,t.innerText.length -1)
+      t.innerText = t.innerText.slice (0,-1)
       console.log (t)
      }
 
@@ -277,7 +277,7 @@ addRow()
 
     const changeColorWithRandom = function () {
       t = document.querySelector ("#changeMyColor")
-      console.log (t)
+      console.log (t)                                                                   // piu facile con rgb, creo 3 variabili per r g b e do math.floor(math.random()*255) 
       t.style.color = "#" + Math.floor(Math.random()*16777215).toString(16);
      }
      changeColorWithRandom()
